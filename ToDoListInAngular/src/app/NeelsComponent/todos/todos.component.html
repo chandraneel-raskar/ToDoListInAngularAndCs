@@ -1,0 +1,20 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+</table>
+
+<div *ngIf="this.todos.length!=0; then thenBlock else elseBlock"></div>
+<ng-template #thenBlock>
+  <div *ngFor="let todo of todos">
+    <app-todo-item [todo]="todo" (todoDelete)="deleteTodo($event)"></app-todo-item>
+  </div>
+</ng-template>
+<ng-template #elseBlock>
+  <h3>Your Todo List is Empty</h3>
+</ng-template>
