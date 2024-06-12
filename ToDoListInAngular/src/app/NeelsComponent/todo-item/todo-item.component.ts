@@ -8,10 +8,9 @@ import { Todo } from '../../Todo';
 })
 export class TodoItemComponent {
   @Input() todo : Todo
-  @Output() todoDelete : EventEmitter<Todo> = new EventEmitter();
-onClick(todo: Todo){
+  @Output() todoDelete : EventEmitter<string> = new EventEmitter();
+onClick(task: string){
   console.log("onClick triggered");
-  this.todoDelete.emit(todo);
-  
+  this.todoDelete.emit(task);
 }
 }

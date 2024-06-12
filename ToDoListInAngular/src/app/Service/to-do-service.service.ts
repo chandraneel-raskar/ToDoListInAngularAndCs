@@ -20,4 +20,9 @@ baseApiUrl: string="https://localhost:7146"
   AddToDoItems(todo: Todo) {
     return this.http.post<Todo>(this.baseApiUrl+'/api/ToDoList',todo)
   }
+
+  DeleteToDoItems(task: string)
+  {
+    return this.http.delete<Todo>(this.baseApiUrl+'/api/ToDoList/'+task)
+  }
 }

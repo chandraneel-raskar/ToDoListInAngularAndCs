@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj": {}
+    "D:\\Angular\\ToDoListInAngularAndCsApi\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj": {}
   },
   "projects": {
-    "D:\\Angular\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj": {
+    "D:\\Angular\\ToDoListInAngularAndCsApi\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj",
+        "projectUniqueName": "D:\\Angular\\ToDoListInAngularAndCsApi\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj",
         "projectName": "AngularToDoListApi",
-        "projectPath": "D:\\Angular\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj",
+        "projectPath": "D:\\Angular\\ToDoListInAngularAndCsApi\\AngularToDoListApi\\AngularToDoListApi\\AngularToDoListApi.csproj",
         "packagesPath": "C:\\Users\\craskar\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular\\AngularToDoListApi\\AngularToDoListApi\\obj\\",
+        "outputPath": "D:\\Angular\\ToDoListInAngularAndCsApi\\AngularToDoListApi\\AngularToDoListApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

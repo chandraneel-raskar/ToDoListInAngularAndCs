@@ -33,5 +33,19 @@ namespace AngularToDoListApi.Controllers
             return Ok(toDoItem);
         }
 
+        [HttpDelete]
+        [Route("{task}")]
+        public async Task<IActionResult> DeletleToDoListItem([FromRoute] string task)
+        {
+            var deleteItem = _toDoItemdbContext.ToDoDbSet.Where(ts=>ts.task==task);
+            foreach(var di in deleteItem)
+            {
+                _toDoItemdbContext.ToDoDbSet.Remove(di);
+            }
+
+            await _toDoItemdbContext.SaveChangesAsync();
+            return Ok(task);
+        }
+
     }
 }
