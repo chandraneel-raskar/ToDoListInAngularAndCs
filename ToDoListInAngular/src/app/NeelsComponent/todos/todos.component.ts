@@ -25,10 +25,6 @@ ngOnInit(): void {
     console.log(task)
     this.toDoService.DeleteToDoItems(task).subscribe()
     location.reload()
-        // this.router.navigateByUrl(this.router.ur)
-    // const index = .indexOf(task)
-    // console.log(index)
-    // this.todos.splice(index, 1)
   }
 
 }

@@ -1,11 +1,18 @@
-
-
-<table class="table">
-    <tbody>
+<div>
+  <table class="table">
+    <thead>
       <tr>
-        <td>{{todo.Id}}</td>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let todo of todos">
+      <tr>
         <td>{{todo.task}}</td>
         <td>{{todo.desc}}</td>
         <td><button class="btn btn-danger" (click)="onClick(todo.task)">Delete</button></td>
       </tr>
+    </tbody>
   </table>
+</div>

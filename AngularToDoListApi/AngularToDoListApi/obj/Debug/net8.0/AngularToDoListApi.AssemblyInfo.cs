@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngularToDoListApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1550ade4746f9e3643442cf501275bd8e2d9a600")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d762de3a8f97a8eefa9089e243a65f7ba3a1609")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngularToDoListApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngularToDoListApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,7 @@ import { Todo } from '../../Todo';
   styleUrl: './todo-item.component.css'
 })
 export class TodoItemComponent {
-  @Input() todo : Todo
+  @Input() todos : Todo[]
   @Output() todoDelete : EventEmitter<string> = new EventEmitter();
 onClick(task: string){
   console.log("onClick triggered");
